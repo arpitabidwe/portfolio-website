@@ -1,29 +1,272 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Portfolio</title>
+
+<title>Arpita Bidwe | Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f7fb;
+    color:#333;
+}
+
+
+/* Navbar */
+
+nav{
+    background:#2563eb;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav h2{
+    margin-bottom:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+}
+
+
+/* Home */
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.hero h1{
+    font-size:45px;
+    color:#2563eb;
+}
+
+.hero h2{
+    margin:20px;
+}
+
+.hero p{
+    font-size:18px;
+    max-width:600px;
+    margin:auto;
+}
+
+
+button{
+
+    margin-top:25px;
+    padding:12px 30px;
+
+    background:#2563eb;
+    color:white;
+
+    border:none;
+    border-radius:25px;
+
+}
+
+
+/* Sections */
+
+section{
+    padding:50px 20px;
+    text-align:center;
+}
+
+
+h2{
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+
+/* Skills */
+
+.cards{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+
+}
+
+
+.card{
+
+    background:white;
+    width:250px;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px #ccc;
+
+}
+
+
+/* Contact */
+
+.contact{
+
+    background:#eaf0ff;
+
+}
+
+
+footer{
+
+    background:#111827;
+    color:white;
+
+    padding:20px;
+    text-align:center;
+
+}
+
+</style>
+
 </head>
+
 
 <body>
 
-    <h1>Arpita Bidwe</h1>
 
-    <h2>BCS Graduate | Full Stack Developer(Aspiring)</h2>
+<nav>
 
-    <p>
-        Hello, I am learning web development and building my skills.
-    </p>
+<h2>Arpita Portfolio</h2>
 
-    <h3>My Skills</h3>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
 
-    <ul>
-        <li>SQL</li>
-        <li>Core Java</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Manual Testing</li>
-    </ul>
+</nav>
+
+
+
+<div class="hero">
+
+<h1>Hi, I'm Arpita Bidwe 👋</h1>
+
+<h2>BCS Graduate | Full Stack Developer</h2>
+
+<p>
+I am learning Web Development and Manual Testing.
+My goal is to become a skilled software developer.
+</p>
+
+
+<button>
+View My Work
+</button>
+
+
+</div>
+
+
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am a BCS student passionate about coding.
+Currently learning Full Stack Development,
+Java, JavaScript and Software Testing.
+</p>
+
+</section>
+
+
+
+<section id="skills">
+
+
+<h2>My Skills</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>Frontend</h3>
+
+<p>
+HTML<br>
+CSS<br>
+JavaScript
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Programming</h3>
+
+<p>
+Java<br>
+Database<br>
+Problem Solving
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Testing</h3>
+
+<p>
+Manual Testing<br>
+Test Cases<br>
+Bug Reporting
+</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+<section id="contact" class="contact">
+
+<h2>Contact</h2>
+
+<p>Email: your-email@gmail.com</p>
+
+<p>GitHub: github.com/arpitabidwe</p>
+
+
+</section>
+
+
+
+<footer>
+
+© 2026 Arpita Bidwe | Portfolio
+
+</footer>
+
 
 </body>
+
 </html>
